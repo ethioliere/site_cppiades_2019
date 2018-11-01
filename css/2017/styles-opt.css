@@ -1,0 +1,233 @@
+
+/* ------------------------------- */
+/* STYLES POUR LES ELEMENTS PARTICULIERS */
+/* ------------------------------- */
+
+
+
+/* ------------------------------- */
+/* VIDEO ET ULULE */
+iframe, #Trophées img, #Bienvenue img {
+	background-color: #3F51B5;
+	border-radius: 5px;
+	border: 5px solid #3F51B5;
+	padding: 5px;
+	box-shadow: 2px 2px 10px grey;
+}
+
+#Teaser iframe, #AfterMovie iframe {
+	width: 100%;
+	height: 500px;
+}
+
+
+
+
+
+/* ------------------------------- */
+/* LISTE VILLES */
+
+.liste_villes {
+	text-align: center;
+}
+
+.liste_villes li {
+	box-shadow: 5px 5px 5px lightgrey;
+	border: 1px solid darkgrey;
+	border-radius: 5px;
+	padding: 20px;
+	min-width: 15%;
+	margin: 10px;
+
+}
+
+.liste_villes li:hover {
+	background-color: #3F51B5;
+	color: white;
+}
+
+
+#Villes li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+#Resultats li {
+	list-style-type: decimal;
+	display: block;
+	padding: 20px 0;
+	width: 50%;
+}
+
+
+/* ------------------------------- */
+/* ACTUALITÉS */
+.actu:nth-child(even) {
+	background-color: inherit;
+}
+
+.actu:nth-child(odd) {
+	background-color: #C5CAE9;
+}
+
+.actu {
+	border-radius: 5px 10px 10px 5px;
+	border: 1px solid lightgrey;
+	padding: 20px;
+	margin: 20px;
+}
+
+.bouton {
+	padding: 5px 20px;
+}
+
+
+/* ------------------------------- */
+/* FORMULAIRES */
+input[type=text], input[type=password], input[type=number], textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+/* ------------------------------- */
+/* LOGOS PARTENAIRES */
+/*#logos section {
+	border: 1px solid grey;
+	border-radius: 15px;
+	margin: 10px auto;
+	text-align: center;
+	background-color: inherit;
+	box-shadow: 5px 5px 5px lightgrey;
+}
+
+#logos div {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	border: 1px solid grey;
+	border-radius: 10px;
+	min-height: 300px;
+	margin: 20px;
+	background-color: inherit;
+	box-shadow: 2px 2px 5px lightgrey;
+}
+
+#logos img {
+	margin: 5px;
+	border-radius: 8px;
+	background-color: white;
+}*/
+
+
+/* ------------------------------- */
+/* LISTE LOTS TOMBOLA ET RÈGLEMENTS */
+.liste_boites {
+	list-style-type: none;
+	text-align: center;
+}
+
+#Règlements li, #Résultats li {
+	display: inline-block;
+}
+
+#Règlements li a, #Résultats li {
+	display: inline-block;
+	box-shadow: 5px 5px 5px lightgrey;
+	border: 1px solid darkgrey;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 20px;
+}
+
+#Lots li {
+	padding: 20px;
+	margin: 10px;
+	display: inline-block;
+	box-shadow: 5px 5px 5px lightgrey;
+	border: 1px solid darkgrey;
+	border-radius: 5px;
+}
+
+#Lots li:hover, .liste_boites a:hover, #Résultats li:hover {
+	background-color: #3F51B5;
+	color: white;
+}
+
+
+/* ------------------------------- */
+/* RÈGLEMENTS */
+.tournois {
+	border: 1px solid grey;
+	border-radius: 15px;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+/* ------------------------------- */
+/* TABLEAU NOTATION POMPOM et SPECTACLES */
+.Notation table {
+	border: 1px solid grey;
+	background-color: inherit;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.Notation tr:nth-child(even) {
+	background-color: inherit;
+}
+
+.Notation tr:nth-child(odd) {
+	background-color: lightgrey;
+}
+
+.Notation tr:first-child {
+	background-color: grey;
+	color: white;
+}
+
+.Notation th {
+	padding: 15px;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px solid grey;
+}
+
+.Notation td {
+	padding: 10px;
+	border-left: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+
+.Notation ul {
+	list-style-type: none;
+}
+
+
+/* ------------------------------- */
+/* RÉSULTATS CPPIADES */
+#Tableau_Res_CPPiades td {
+	border-left: 1px solid grey;
+}
+
+/* ------------------------------- */
+/* FAQ */
+
+#Plaquette {
+	text-align: center;
+}
+
+#Plaquette a {
+	display: inline-block;
+	width: 50%;
+	font-size: 20px;
+	box-shadow: 5px 5px 5px lightgrey;
+	border: 1px solid darkgrey;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 20px;
+}

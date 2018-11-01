@@ -24,12 +24,14 @@
 
   <body>
 
+  <!-- TITRE AU DESSUS DE LA BARRE-->
+
     <h1 class="site-heading text-center text-white d-none d-lg-block">
       <span class="site-heading-upper text-primary mb-3">Bienvenue à Bordeaux !</span>
       <span class="site-heading-lower">CPPiades 2019</span>
     </h1>
 
-    <!-- Navigation -->
+  <!-- Barre de Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
       <div class="container">
         <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">CPPiades 2019</a>
@@ -44,7 +46,7 @@
               </a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.html">Programme</a>
+              <a class="nav-link text-uppercase text-expanded" href="programme.html">Programme</a>
             </li>
             <li class="nav-item active px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="tombola.html">Tombola</a>
@@ -59,6 +61,106 @@
         </div>
       </div>
     </nav>
+  <!-- FIN BARRE DE NAVIGATION -->
+
+  <!-- PARTIE AVEC LES INFOS-->
+    <section class="page-section cta" style="margin-top: 30px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-lower">Tombola</span>
+              </h2>
+              <p>
+                  Le tirage aura lieu le <strong>15 juin 2019</strong>.<br>
+              
+                  L'association organisatrice des CPPiades confiera à chaque BDE l'ensemble des lots gagnés par les participants de leur ville, 
+                  qu'ils distribueront après la fin de l'événement.
+              </p>
+
+              <p class="text-center"> <strong> Découvrez les lots en image ci-dessous </strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="text-center">    
+        <section id="Lots">          
+          
+          <!-- CARROUSEL -->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3"></div>
+              <div id="carouselExampleIndicators" class="carousel slide text-center" data-ride="carousel" style="width: 50%;">
+                <!-- Création des différentes slides-->
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Pour mettre l'image sur la slide-->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/Tombola/casque.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/Tombola/dakota.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/Tombola/enceinte.jpg" alt="Third slide">
+                  </div>
+                </div>
+
+                <!-- Permet d'activer les flèches du carousel et permet de changer de photos-->
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>  
+
+<!-- PARTIE AVEC LES LOTS DE TOMBOLA -->
+        <section class="page-section about-heading" style="margin-top: 100px">
+          <div class="container">
+            <div class="about-heading-content">
+              <div class="row">
+                <div class="col-xl-9 col-lg-10 mx-auto">
+                  <div class="bg-faded rounded p-5">
+                    <h2 class="section-heading mb-4">
+                      <span class="section-heading-lower">Et bien plus encore !</span>
+                    </h2>
+                    <p>
+                      <ul style="text-align: left;">
+                        <li> Lot 1 </li> <!-- A modifier-->
+                        <li> Lot 2 </li> <!-- A modifier-->
+                        <li> Lot 3 </li> <!-- A modifier-->
+                        <li> Lot 4 </li> <!-- A modifier-->
+                        <li> Lot 5 </li> <!-- A modifier-->                                                 
+                      </ul>                      
+                    </p>                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+            
+
+          
+        
+      </div>
+    </div>  
+
+<!--
     <section class="page-section">
       <div class="container">
         <div class="product-item">
@@ -120,11 +222,11 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
     <footer class="footer text-faded text-center py-5">
       <div class="container">
-        <p class="m-0 small">Copyright &copy; Your Website 2018</p>
+        <p class="m-0 small">&copy; CPPiades 2019. Site réalisé par Elise Thioliere. Maintenu par ACBx.</p>
       </div>
     </footer>
 
