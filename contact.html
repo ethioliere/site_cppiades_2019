@@ -24,9 +24,13 @@
 
   <body>
 
+    <balise id="hautdepage"></balise> 
+
     <h1 class="site-heading text-center text-white d-none d-lg-block">
       <span class="site-heading-upper text-primary mb-3">Bienvenue à Bordeaux !</span>
       <span class="site-heading-lower">CPPiades 2019</span>
+      <span class="site-heading-upper text-primary mb-3">24,25 &amp; 26 Juin</span>
+      <img style=" margin-top: 0px; margin-left:-50px ;width : 10%;" alt="Logo" src="img/ACBX.png" class="pull-left">
     </h1>
 
     <!-- Navigation -->
@@ -74,7 +78,7 @@
               </h2>
             </div>
           </div>
-          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" style="width: 30%" src="img/ACBX.png" alt="">
+          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/pontdepierre.jpg" alt="">
           <div class="product-item-description d-flex ml-auto">
             <div class="bg-faded p-5 rounded text-justify">
               <p class="mb-0">
@@ -99,17 +103,28 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <div class="cta-inner text-center rounded">
-              <h2 class="section-heading mb-5">
-                <span class="section-heading-upper">Comment nous </span>
-                <span class="section-heading-lower">Contacter ? </span>
-              </h2>
-              <p>
-                Questions ? Suggestions ? Vous pouvez nous contacter par mail ou sur facebook !
-              </p>
-              
-              Mail : <a href="mailto:acbx2019@gmail.com">acbx2019@gmail.com</a><br> 
-              Facebook : <a href="https://www.facebook.com/ACBx-CPPiades-2019-328938637879334/">ACBx</a></p>             
+            <div class="cta- text-center rounded">
+              <div class="product-item-description" style="border: outset; border-color: black;border-radius: 5px;">
+                <div class="bg-faded p-5 rounded text-justify">
+                  <h2 class="section-heading mb-5 text-center">
+                    <span class="section-heading-upper">Comment nous </span>
+                    <span class="section-heading-lower">Contacter ? </span>
+                  </h2>
+
+                  <hr>
+
+                  <p class="mb-0 text-center">
+                      
+                    Questions ? Suggestions ? Vous pouvez nous contacter par mail ou sur facebook !
+
+                    <br>                    
+                    
+                    Mail : <a href="mailto:acbx2019@gmail.com">acbx2019@gmail.com</a><br> 
+                    Facebook : <a href="https://www.facebook.com/ACBx-CPPiades-2019-328938637879334/">ACBx</a>  
+
+                  </p>
+                </div>
+              </div>                   
             </div>
           </div>
         </div>
@@ -135,54 +150,11 @@
       </div>
     </section>
 
-<!--
-  <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-                <li class="list-unstyled-item list-hours-item d-flex">
-                  Sunday
-                  <span class="ml-auto">Closed</span>
-                </li>
-                <li class="list-unstyled-item list-hours-item d-flex">
-                  Monday
-                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
-                </li>
-                <li class="list-unstyled-item list-hours-item d-flex">
-                  Tuesday
-                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
-                </li>
-                <li class="list-unstyled-item list-hours-item d-flex">
-                  Wednesday
-                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
-                </li>
-                <li class="list-unstyled-item list-hours-item d-flex">
-                  Thursday
-                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
-                </li>
-                <li class="list-unstyled-item list-hours-item d-flex">
-                  Friday
-                  <span class="ml-auto">7:00 AM to 8:00 PM</span>
-                </li>
-                <li class="list-unstyled-item list-hours-item d-flex">
-                  Saturday
-                  <span class="ml-auto">9:00 AM to 5:00 PM</span>
-                </li>
-              </ul>
-              <p class="address mb-5">
-                <em>
-                  <strong>1116 Orchard Street</strong>
-                  <br>
-                  Golden Valley, Minnesota
-                </em>
-              </p>
-              <p class="mb-0">
-                <small>
-                  <em>Call Anytime</em>
-                </small>
-                <br>
-                (317) 585-8468
-              </p>
--->
 
     <footer class="footer text-faded text-center py-5">
+      <a href="#hautdepage" style="color: wheat;">Haut de la page</a>
+      <br><br>
+
       <div class="container">
         <p class="m-0 small">&copy; CPPiades 2019. Site réalisé par Elise Thioliere. Maintenu par ACBx.</p>
       </div>
@@ -194,9 +166,5 @@
 
   </body>
 
-  <!-- Script to highlight the active date in the hours list -->
-  <script>
-    $('.list-hours li').eq(new Date().getDay()).addClass('today');
-  </script>
-
+  
 </html>
